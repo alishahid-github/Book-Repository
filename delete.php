@@ -62,7 +62,7 @@
             echo "Connection failed: ";
         } else {
             $u_id = $_POST["ID"];
-            $sql = "DELETE FROM book WHERE id=$u_id";
+            $sql = "DELETE FROM book WHERE id=$u_id";  //SQL Query for getting results
 
             if ($conn->query($sql) === TRUE) {
         ?>
